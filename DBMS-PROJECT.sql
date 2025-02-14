@@ -130,23 +130,23 @@ VALUES ('WaterFall', 'Choral Dam, Janapav, Hanuwantiya, Chhatri Bagh,', 18000,2)
 -- inserting data(3)
 -- PackageDestination
 
-1 Rajwada Palace   
-2 Khajrana Ganesh Mandir
-3 Annapurna Temple   
-4 Sarafa Bazaar    
-5 Krishna Puri Chhatri  
-6 Choral Dam   
-7 Janapav   
-8 Hanuwantiya    
-9 Chhatri Bagh   
-0 Central Museum
+ -- 1 Rajwada Palace   
+ -- 2 Khajrana Ganesh Mandir
+ -- 3 Annapurna Temple   
+ -- 4 Sarafa Bazaar    
+ -- 5 Krishna Puri Chhatri  
+ -- 6 Choral Dam   
+ -- 7 Janapav   
+ -- 8 Hanuwantiya    
+ -- 9 Chhatri Bagh   
+ -- 10 Central Museum
 
 
-(1, 1,2,4,6)
-(2, 1,2,3,4,7,8)
-(3, 1,2,3,4,5,6,7,8,9,10)
-(4, 1,2,10)
-(5, 6,7,8,9)
+  -- (1, 1,2,4,6)
+ -- (2, 1,2,3,4,7,8)
+ -- (3, 1,2,3,4,5,6,7,8,9,10)
+ -- (4, 1,2,10)
+-- (5, 6,7,8,9)
 
 
 INSERT INTO PackageDestination (PackageID, DestinationID) VALUES (1, 1);
